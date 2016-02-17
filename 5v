@@ -1,0 +1,31 @@
+Esta versión 5 contiene:
+
+Esta versión es funcional y es más completa.
+
+Contiene:
+
+ La parte mas importante y principal en este avance, es que es el más grande y diferente en comparación de las versiones anterior del código del Inv1 a la Inv4, en los siguientes puntos:
+
+1. Existen dos archivos por cada uno del proyecto, por ejemplo, en el controlador existe Up_xml.php y Up_xml_c.php .El que tiene los últimos cambios son los archivos renombrados con "_c". Se opto por dejarlos así ya que se puede ver el cambio de la funcionalidad de borrado y demás cambios mencionados en las siguientes líneas.
+2. El código esta optimizado con validaciones y limpieza de código inservible comentado.
+3. Los archivos fueron renombrados a nombres cortos y más funcionales al desarrollo final.
+4. Los códigos fueron mejorados en parte, con forme a las sugerencias a las mejores practicas, separando el código correctamente del MVC. Es decir  separe las consultas al modelo, los mensajes, código html y botones a las vistas y todo el código de logica de operaciones en el controlador.
+5. Se mejoraron las identaciones y separaciones.
+6. Se arreglaron errores de presentación y de contenido.
+7. Se separarón mensajes de validaciones y se agregaron botones de regreso faltantes.
+8. Se agrego la funcionalidad de borrar conceptos que no deben de ser grabados en la DB, esto se realizo utilizando checkboxes y eliminando del controlador el uso de tipo catalgos, del cual antes comparaba si los mensajes existian, pero se pudo ver que eso no era óptimo.
+9. Esta versión se subio al repositorio como proyecto completo, es decir la carpeta completa de Codeigniter del servidor, esta carpeta se llama "ci". 
+10. Esta versión se encontraba dentro de otra carpeta llamada "final", por ello, las direcciones dentro del controlador como la que apunta a la carpeta de uploads y las de acceso a la aplicación en el navegador web, incluyen en la ruta el nombre de la carpeta "final"; por ejemplo: ([...]/final/ci[...]).
+11. En los modelos se limpiaron código extra que estaba comentado y se uso de prueba.
+12. En el modelo se agregaron las consultas relacionadas con el borrado del concepto seleccionado.
+13. En las vistas se agregaron mensajes de validación y se agregaron ciclos para controlar la manera en como se van a mostrar los mensajes, además de que se aplicaron las sintaxis alternativa de PHP en los ciclos.
+14. Por último en la DB se quito la tabla llamada Interno, que por el momento no se necesita y va a pasar a la otra etapa del desarollo.
+15. La DB se respaldo con el nombre de la DB original llamado almacen.sql.
+16. En la DB se eliminaron los datos basura, que en su momento se usaron para hacer prubas y que en los anteriores respaldos falto limpiar en su totalidad dentro de las tablas.
+
+Pendientes:
+
+1. La mejora en reducción de código en los bloques que lo permita en las vistas, modelos y controlador.
+2. Aplicar metodos ya existentes que puedan reducir el código.
+
+
