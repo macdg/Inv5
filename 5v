@@ -16,7 +16,7 @@ Contiene:
 8. Se agrego la funcionalidad de borrar "conceptos" que no deben de ser grabados en la DB, esto se realizo utilizando checkboxes y eliminando del controlador el uso de tipo catálgos, del cual antes comparaba si los mensajes existian, pero se pudo ver que eso no era óptimo.
 9. Esta versión se subio al repositorio como proyecto completo, es decir la carpeta completa de Codeigniter del servidor, esta carpeta se llama "ci". 
 10. Esta versión se encontraba dentro de otra carpeta llamada "final", por ello, las direcciones dentro del controlador como la que apunta a la carpeta de uploads y las de acceso a la aplicación en el navegador web, incluyen en la ruta el nombre de la carpeta "final"; por ejemplo: ([...]/final/ci[...]).
-11. En los modelos se limpiaron código extra que se tenia comentado y se uso de prueba en su momento.
+11. En el modelo se limpio código extra que se tenía comentado y se uso de prueba en su momento
 12. En el modelo se agregaron las consultas relacionadas con el borrado del concepto seleccionado.
 13. En las vistas se agregaron mensajes de validación y se agregaron ciclos para controlar la manera en como se van a mostrar los mensajes, además que se aplico la sintaxis alternativa de PHP en los ciclos.
 14. En la DB se quito la tabla llamada Interno, que por el momento no se necesita y va a formar parte en la otra etapa del desarollo.
