@@ -19,9 +19,9 @@ Contiene:
 11. En los modelos se limpiaron código extra que se tenia comentado y se uso de prueba en su momento.
 12. En el modelo se agregaron las consultas relacionadas con el borrado del concepto seleccionado.
 13. En las vistas se agregaron mensajes de validación y se agregaron ciclos para controlar la manera en como se van a mostrar los mensajes, además que se aplico la sintaxis alternativa de PHP en los ciclos.
-14. Por último en la DB se quito la tabla llamada Interno, que por el momento no se necesita y va a formar parte en la otra etapa del desarollo.
+14. En la DB se quito la tabla llamada Interno, que por el momento no se necesita y va a formar parte en la otra etapa del desarollo.
 15. La DB se respaldo con el nombre de la DB original llamado almacen.sql y se encuentra dentro de la carpeta ci del proyecto.
-16. En la DB se eliminaron los datos basura, que en su momento se usaron para hacer prubas y que en los anteriores respaldos falto limpiar en su totalidad.
+16. En la DB se eliminaron datos basura, que en su momento se usaron para hacer pruebas y que en los anteriores respaldos falto limpiar en su totalidad.
 
 Pendientes:
 
