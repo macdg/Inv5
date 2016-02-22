@@ -1,0 +1,26 @@
+# Este archivo lo tuve quemodificar para la prueba de plantilas en codeigniter, pero además si se configura así se elimina el index.php para el acceso desde el navegador.
+
+# ----------------------------------------------------------------------------------------------
+#  Activar RewriteEngine
+# ----------------------------------------------------------------------------------------------
+#RewriteEngine on
+
+# ----------------------------------------------------------------------------------------------
+# Eliminar index.php
+# ----------------------------------------------------------------------------------------------
+#RewriteCond $1 !^(index\.php|robots\.txt|sitemap\.xml|assets)
+#RewriteRule ^(.*)$ index.php/$1 (L)
+
+
+#Options FollowSymLinks
+#<IfModule mod_rewrite.c>
+	RewriteEngine on
+
+#	RewriteCond %{REQUEST_FILENAME} !-f
+#	RewriteCond %{REQUEST_FILENAME} !-d
+#	RewriteRule ^(.*)$ index.php?/$1 [L]
+#<IfModule>
+
+#<IfModule !mod_rewrite.c>
+#	ErrorDocument 404 /index.php
+#</IfModule>
